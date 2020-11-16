@@ -5,13 +5,13 @@
 
 void main()
 {
-  char password[80);
+  char password[80];		//fixed array bracket
 
-  print("Create a password: "]:
-  scanf("%s", password);
+  print("Create a password: "); //fixed parenthesis / semicolon
+  scanf("%s", &password);		//added ampersand
 
-  integer passwordlength;
+  int passwordlength;			//changed from integer to int
   passwordlength = strlen(password);
-  printf("Your password is %s and %i characters long', password, passwordlength)
+  printf("Your password is %s and is %i characters long", password, passwordlength); //quotation and semicolon.
 
 }
