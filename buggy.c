@@ -5,7 +5,7 @@
 
 void main()
 {
-  char password[80);
+  char password[80];
 
   print("Create a password: "]:
   scanf("%s", password);
