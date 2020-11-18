@@ -7,11 +7,11 @@ void main()
 {
   char password[80];
 
-  print("Create a password: "):
+  printf("Create a password: ");
   scanf("%s", password);
 
-  i = passwordlength;
+  int i = passwordlength;
   passwordlength = strlen(password);
-  printf("Your password is %s and %i characters long", password, passwordlength)
+  printf("Your password is %s and %i characters long", password, passwordlength);
 
 }
