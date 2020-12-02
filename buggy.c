@@ -3,15 +3,13 @@
 
 //FIND AND FIX THE MISTAKES IN THIS CODE
 
-void main()
-{
-  char password[80);
+void main() {
+    char password[80];
 
-  print("Create a password: "]:
-  scanf("%s", password);
+    printf("\nCreate a password:");
+    scanf("%s", password);
 
-  integer passwordlength;
-  passwordlength = strlen(password);
-  printf("Your password is %s and %i characters long', password, passwordlength)
-
+    int passwordLength;
+    passwordLength = strlen(password);
+    printf("\nYour password is %s and is %i characters long", password, passwordLength);
 }
